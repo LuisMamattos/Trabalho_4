@@ -9,6 +9,7 @@ void select_pares(int *p);
 int main()
 {
     for(n=0;*(nums+n) != -1;n++){
+        nums = realloc(nums,(nums+(n*sizeof(int)));
         printf("digite um número, ou digite '-1' para sair: ");
         scanf("%d",(nums+n));
     }
